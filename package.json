@@ -1,0 +1,8 @@
+{
+  "name": "intellagentic-net",
+  "private": true,
+  "scripts": {
+    "preview": "npx --yes serve .",
+    "deploy": "npx wrangler@4 pages deploy . --project-name=intellagentic-net --branch=main --commit-dirty=true"
+  }
+}
